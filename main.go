@@ -8,10 +8,9 @@ import (
 	"time"
 )
 
-const address = ":8080"
+const address = "localhost:8080"
 
 func main() {
-
 	listener, err := net.Listen("tcp", address)
 	if err != nil {
 		log.Fatal("Can't create listener: ", err)

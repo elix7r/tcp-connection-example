@@ -1,3 +1,3 @@
-module github.com/titor999/tcp-connection-example
+module github.com/elix7r/tcp-connection-example
 
 go 1.20
